@@ -184,6 +184,12 @@ ul {
        background-size: cover;
     }
     
+    .quote {
+       padding-top: 60%;
+       background-image: url(../images/quote.jpg);
+       background-size: cover;
+    }  
+    
     .banner-img2 {
        padding-top: 56.25%;
        background-image: url(../images/contact-banner.jpg);
