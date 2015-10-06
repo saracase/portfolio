@@ -146,8 +146,7 @@ textarea {
 }
 
 .logo {
-    width: 8rem;
-    margin: 0 auto;
+    width: 5rem;
     display: block;
 }
 
@@ -159,7 +158,7 @@ ul {
 .paragraph {
     text-align: center;
 }
-  
+
 @media only screen and (min-width: 25em) {
     
     .nav {
@@ -174,25 +173,21 @@ ul {
         text-align: center;
     }
     
-    .banner {
-        text-align: center;
-    }
-    
     .banner-img {
-       padding-top: 56.25%;
+        padding-top: 56.25%;
        background-image: url(../images/banner.jpg);
-       background-size: cover;
-    }
-    
-    .quote {
-       padding-top: 60%;
-       background-image: url(../images/quote.jpg);
        background-size: cover;
     }  
     
     .banner-img2 {
        padding-top: 56.25%;
        background-image: url(../images/contact-banner.jpg);
+       background-size: cover;
+    }
+    
+    .banner-img3 {
+       padding-top: 56.25%;
+       background-image: url(../images/name.svg);
        background-size: cover;
     }  
           

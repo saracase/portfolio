@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 "Lora", serif;
+  font: normal 100%/1.5 "Robotto", sans-serif;
   color: #333333;
 }
 
@@ -139,30 +139,30 @@ sub {
 }
 
 h1 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Robotto", sans-serif;
     color: #DBE690;
 }
 
 h2 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Robotto", sans-serif;
     color: #414242;
 }
 
 h3 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Robotto", sans-serif;
     color: #e94647;
 }
 
 .brand-family {
-    font-family: "Raleway", sans-serif;
+    font-family: "Robotto", sans-serif;
 }
 
 .form-spacing {
-     font-family: "Raleway", sans-serif;
+     font-family: "Robotto", sans-serif;
 }
 
 .masthead {
-     font-family: "Raleway", sans-serif;
+     font-family: "Robotto", sans-serif;
 }
 
 .micro {
