@@ -91,7 +91,7 @@ a:focus {
 }
 
 .masthead {
-  background-color: #333333;
+  background-color: #C9C9C9;
   overflow: hidden;
 }
 
@@ -104,7 +104,7 @@ a:focus {
     margin: 0;
     padding: 1em 0;
     list-style-type: none;
-    background-color: #333333;
+    background-color: #C9C9C9;
 }
 
 .nav li {
@@ -124,15 +124,8 @@ a:focus {
 .nav a:active,
 .nav .nav-current,
 .nav .nav-current:visited {
-  background-color: #;
 
   color: #fff;
-}
-
-.intro {
-    background-color: #e2e2e2;
-    text-align: center;
-    font-weight: normal;
 }
 
 textarea {
@@ -159,6 +152,12 @@ ul {
     text-align: center;
 }
 
+.placeholder {
+    padding-top: 56.25%;
+    background-image: url(../images/placeholder.png);
+    background-size: cover;
+}  
+
 @media only screen and (min-width: 25em) {
     
     .nav {
@@ -173,23 +172,15 @@ ul {
         text-align: center;
     }
     
-    .banner-img {
-        padding-top: 56.25%;
-       background-image: url(../images/banner.jpg);
-       background-size: cover;
-    }  
-    
-    .banner-img2 {
-       padding-top: 56.25%;
-       background-image: url(../images/contact-banner.jpg);
-       background-size: cover;
-    }
-    
     .banner-img3 {
        padding-top: 56.25%;
        background-image: url(../images/background.svg);
        background-size: cover;
-    }  
+    }
+    
+     .logo {
+        margin: .25rem 40%;
+    }
           
 }
 
