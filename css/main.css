@@ -5,63 +5,21 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+    box-sizing: border-box;
+    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 60em) {
-    
-    html {
-        font-size: 110%;
-    }
-        
-    .masthead {
-        text-align: left;
-    }
-    
-    .nav-footer {
-        text-align: right;
-    }
+*, *::before, *::after {
+    box-sizing: inherit;
 }
-
-@media only screen and (min-width: 90em) {
-    
-    html {
-        font-size: 120%;
-    }
-    
-}
-
-@media only screen and (min-width: 120em) {
-    
-    html {
-        font-size: 130%;
-    }
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 
 body {
-  margin: 0;
-  padding: 0;
-}
-
-a:link,
-a:active {
-    outline: none;
-}
-
-a:focus {
-    background-color: 3px solid #000;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .skip-links {
@@ -74,10 +32,9 @@ a:focus {
     position: absolute;
     top: -3em;
     padding: 0.5em 0.75em;
-    background-color: #000;
-    color: #333333;
-    font-weight: bold;
-    font-size: 1.25rem;
+    background-color: #333333;
+    color: #F4F4F4;
+    font-size: 1.25em;
     text-decoration: none;
 }
 
@@ -85,114 +42,109 @@ a:focus {
     top: 0;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
-}
-
 .masthead {
-  background-color: #C9C9C9;
-  overflow: hidden;
+    background-color: #C9C9C9;
 }
 
-.title {
-    text-align: center;
-    margin: 0;
+.nav a {
+    text-decoration: none;
+    color: #333333;
 }
 
 .nav {
     margin: 0;
-    padding: 1em 0;
+    padding: 0.5em 0;
     list-style-type: none;
-    background-color: #C9C9C9;
+    text-align: center;
 }
 
 .nav li {
-    border-top: 0;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-  display: block;
-  color: #F4F4F4;
-  text-decoration: none;
+    display: block;
+    padding: 1em;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active,
-.nav .nav-current,
+.nav .nav-current:link,
 .nav .nav-current:visited {
-
-  color: #fff;
-}
-
-textarea {
-    width: 100%;
-    height: 18em;
-    border: none;
-}
-
-.text-align {
+    color: #F4F4F4;
     text-align: center;
 }
 
-.logo {
-    width: 5rem;
+.billboard {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    padding: 5em 0;
+}
+
+.wordmark-type {
+    text-align: center;
+    font-size: 3em;
+}
+
+.placeholder-circle:hover {
+    opacity: .75;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.nav-footer {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    background-color: #C9C9C9;
+}
+
+.nav-footer li {
     display: block;
+    padding: 1em;
 }
 
-ul {
-    list-style: none;
-    font-family: "Raleway", sans-serif;
+.nav-footer a:hover,
+.nav-footer a:focus,
+.nav-footer a:active,
+.nav-footer .nav-current:link,
+.nav-footer .nav-current:visited {
+    color: #F4F4F4;
 }
 
-.paragraph {
-    text-align: center;
-}
-@media only screen and (min-width: 25em) {
-    
-    .nav {
-        text-align: center;
-    }
-
+@media only screen and (min-width:25em) {
+ 
     .nav li {
         display: inline-block;
     }
     
-    .masthead {
-        text-align: center;
+    .nav-footer li {
+        display: inline-block;
     }
     
-    .banner-img3 {
-       padding-top: 56.25%;
-       background-image: url(../images/background.svg);
-       background-size: cover;
+    .billboard {
+        padding: 2em 0;
     }
     
-     .logo {
-        margin: .25rem 40%;
+    .wordmark-type {
+        font-size: 5em;
     }
-          
+    
 }
 
-@media only screen and (min-width: 38em) {
-    
-  .title,
-  .nav {
-    text-align: left;
-   }
-    
-    .masthead {
+@media only screen and (min-width:38em) {
+ 
+    .nav {
         text-align: left;
+        padding: 1.5em 0;
     }
     
     .nav-footer {
-        text-align: right;
-}
-    .logo {
-        margin: .25rem 1%;
+        text-align: left;
+        padding: 0.5em 0 0 0;
     }
     
 }

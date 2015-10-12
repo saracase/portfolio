@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 "Robotto", sans-serif;
+  font: normal 100%/1.5 "Lato", sans-serif;
   color: #333333;
 }
 
@@ -139,32 +139,33 @@ sub {
 }
 
 h1 {
-    font-family: "Robotto", sans-serif;
+    font-family: "Lato", sans-serif;
     color: #DBE690;
 }
 
 h2 {
-    font-family: "Robotto", sans-serif;
+    font-family: "Lato", sans-serif;
     color: #414242;
 }
 
 h3 {
-    font-family: "Robotto", sans-serif;
-    color: #e94647;
+    font-family: "Lato", sans-serif;
+    color: #787677;
 }
 
 .brand-family {
-    font-family: "Robotto", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .form-spacing {
-     font-family: "Robotto", sans-serif;
+     font-family: "Lato", sans-serif;
 }
 
 .masthead {
-     font-family: "Robotto", sans-serif;
+     font-family: "Lato", sans-serif;
 }
 
 .micro {
+    font-family: "Lato", sans-serif;
     color: #F4F4F4;
 }
