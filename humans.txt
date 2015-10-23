@@ -1,0 +1,18 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Sara Case
+Site: http://saracase.ca
+Github: https://github.com/saracase
+Instagram: @00hdeer
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+-Brackets
+-Github
