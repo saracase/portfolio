@@ -89,10 +89,6 @@ a:focus {
     font-size: 3em;
 }
 
-.placeholder-circle:hover {
-    opacity: .75;
-}
-
 .nav-footer a {
     text-decoration: none;
     color: #333333;
@@ -119,6 +115,11 @@ a:focus {
     color: #F4F4F4;
 }
 
+.nav-current {
+    color: #F4F4F4;
+}
+    
+    
 .me {
     width: 20%;
 }
