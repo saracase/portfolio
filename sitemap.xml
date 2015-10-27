@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://saracase.ca/</loc>
+        <loc>https://saracase.github.io/portfolio</loc>
         <priority>1.0</priority>
         <changefreq>weekly</changefreq>
     </url>
     
     <url>
-        <loc>https://saracase.ca/about.html</loc>
+        <loc>https://saracase.github.io/about</loc>
     </url>
     
         <url>
-        <loc>https://saracase.ca/contact.html</loc>
+        <loc>https://saracase.github.io/contact</loc>
     </url>
 
 </urlset>

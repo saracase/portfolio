@@ -3,7 +3,7 @@
 # TEAM
 
 Designer & Developer: Sara Case
-Site: http://saracase.ca
+Site: http://saracase.github.io/portfolio
 Github: https://github.com/saracase
 Instagram: @00hdeer
 Location: Ottawa, Canada
