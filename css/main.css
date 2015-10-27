@@ -22,6 +22,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a:focus {
+    outline: 3px solid #333333;
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
