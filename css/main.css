@@ -22,8 +22,26 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.img-flex {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 20px;
+    width: 35em;
+}
+
+.workh2 {
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: -10px;
+    font-size: 1.25em;
+    text-align: center;
+}
+
 a:focus {
-    outline: 3px solid #333333;
+    outline: 1px solid #333333;
 }
 
 .skip-links {
@@ -51,13 +69,16 @@ a:focus {
 }
 
 .nav a {
+    margin:0 auto;
+    padding: 0;
     text-decoration: none;
     color: #333333;
 }
 
 .nav {
     margin: 0;
-    padding: 0.5em 0;
+    padding-top: .25em;
+    padding-bottom: .25em;
     list-style-type: none;
     text-align: center;
 }
@@ -76,11 +97,18 @@ a:focus {
     text-align: center;
 }
 
+li {
+    display: inline;
+    font-weight: 300;
+    text-align: center;
+}
+
 .billboard {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 50vh;
+    width: 5em;
     padding: 5em 0;
 }
 
@@ -121,7 +149,13 @@ a:focus {
     
     
 .me {
-    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    width: 30em;
+}
+
+.paragraph {
+    text-align: center;
 }
 
 @media only screen and (min-width:25em) {
