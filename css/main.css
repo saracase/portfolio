@@ -19,6 +19,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #F4F4F4;
     font-family: 'Lato', sans-serif;
 }
 
@@ -34,7 +35,6 @@ body {
 
 .workh2 {
     font-weight: 300;
-    color: #333333;
     margin-bottom: -10px;
     font-size: 1.25em;
     text-align: center;
@@ -107,9 +107,15 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 5em;
-    padding: 5em 0;
+    width: 30;
+    background-color: #DBE690;
+}
+
+.billboard-type {
+    align-content: center;
+    width: 100%;
+    height: 30em;
+    
 }
 
 .wordmark-type {
@@ -149,13 +155,26 @@ li {
     
     
 .me {
-    text-align: center;
+    align-content: center;
     padding-top: 20px;
-    width: 30em;
+    width: 100%;
+    height: 30em;
 }
 
 .paragraph {
     text-align: center;
+}
+
+.map {
+    align-content: center;
+    padding-top: 20px;
+    width: 35em;
+    height: 40em;
+}
+
+.portfolio-piece:hover {
+    color: #DBE690;
+    opacity: .35;
 }
 
 @media only screen and (min-width:25em) {
