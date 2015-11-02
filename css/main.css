@@ -1,8 +1,8 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+@-moz-viewport {width:device-width; scale: 1; }
+@-ms-viewport {width:device-width; scale: 1; }
+@-o-viewport {width:device-width; scale: 1; }
+@-webkit-viewport {width:device-width; scale: 1; }
+@viewport {width:device-width; scale: 1; }
 
 html {
     box-sizing: border-box;
@@ -19,8 +19,8 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
     background-color: #F4F4F4;
-    font-family: 'Lato', sans-serif;
 }
 
 .img-flex {
@@ -33,19 +33,12 @@ body {
     width: 35em;
 }
 
-.workh2 {
-    font-weight: 300;
-    margin-bottom: -10px;
-    font-size: 1.25em;
-    text-align: center;
-}
-
 a:focus {
     outline: 1px solid #333333;
 }
 
 .skip-links {
-    margin: 0;
+    margin:0;
     padding: 0;
     list-style-type: none;
 }
@@ -53,15 +46,29 @@ a:focus {
 .skip-links a {
     position: absolute;
     top: -3em;
-    padding: 0.5em 0.75em;
     background-color: #333333;
     color: #F4F4F4;
+    padding: 0.5em 0.75em;
     font-size: 1.25em;
-    text-decoration: none;
 }
 
 .skip-links a:focus {
     top: 0;
+}
+
+.billboard {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30;
+    background-color: #DBE690;
+}
+
+.billboard-type {
+    align-content: center;
+    width: 100%;
+    height: 30em;
+    
 }
 
 .masthead {
@@ -81,16 +88,11 @@ a:focus {
     padding-bottom: .25em;
     list-style-type: none;
     text-align: center;
-}
-
-.nav li {
-    display: block;
-    padding: 1em;
+    background-color: #C9C9C9;
 }
 
 .nav a:hover,
 .nav a:focus,
-.nav a:active,
 .nav .nav-current:link,
 .nav .nav-current:visited {
     color: #F4F4F4;
@@ -103,57 +105,14 @@ li {
     text-align: center;
 }
 
-.billboard {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 30;
-    background-color: #DBE690;
-}
 
-.billboard-type {
-    align-content: center;
-    width: 100%;
-    height: 30em;
-    
-}
-
-.wordmark-type {
+.workh2 {
+    font-weight: 300;
+    margin-bottom: -10px;
+    font-size: 1.25em;
     text-align: center;
-    font-size: 3em;
 }
 
-.nav-footer a {
-    text-decoration: none;
-    color: #333333;
-}
-
-.nav-footer {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-    background-color: #C9C9C9;
-}
-
-.nav-footer li {
-    display: block;
-    padding: 1em;
-}
-
-.nav-footer a:hover,
-.nav-footer a:focus,
-.nav-footer a:active,
-.nav-footer .nav-current:link,
-.nav-footer .nav-current:visited {
-    color: #F4F4F4;
-}
-
-.nav-current {
-    color: #F4F4F4;
-}
-    
-    
 .me {
     align-content: center;
     padding-top: 20px;
@@ -184,36 +143,77 @@ work-imgs {
     height: 30em;
 }
 
-@media only screen and (min-width:25em) {
- 
-    .nav li {
-        display: inline-block;
-    }
-    
-    .nav-footer li {
-        display: inline-block;
-    }
-    
-    .billboard {
-        padding: 2em 0;
-    }
-    
-    .wordmark-type {
-        font-size: 5em;
-    }
-    
+.icons {
+    text-align: center;
+    width: 5em;
 }
 
-@media only screen and (min-width:38em) {
- 
-    .nav {
-        text-align: left;
-        padding: 1.5em 0;
+.nav-footer a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.nav-footer {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    background-color: #C9C9C9;
+}
+
+.nav-footer li {
+    display: block;
+    padding: 1em;
+}
+
+.nav-footer a:hover,
+.nav-footer a:focus,
+.nav-footer a:active,
+.nav-footer .nav-current:link,
+.nav-footer .nav-current:visited {
+    color: #F4F4F4;
+}
+
+.nav-current {
+    color: #F4F4F4;
+}
+
+
+
+@media only screen and (min-width: 20em) {
+    
+    .logo {
+     margin: 0 auto;
+     max-width: 15em;
+     text-align: center;
+ }   
+    
+    .headshot {
+        display: block;
+        margin: 0 auto;
+        max-width: 30em;
+        text-align: center;
     }
     
-    .nav-footer {
-        text-align: left;
-        padding: 0.5em 0 0 0;
+    .about {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 28em;
+        line-height: 1.6em;
     }
-    
+}
+
+@media only screen and (min-width: 40em) {
+  
+ .logo {
+     margin: 0 auto;
+     max-width: 22em;
+     text-align: center;
+ }
+          
+}
+
+@media only screen and (min-width: 60em) {
+
 }
