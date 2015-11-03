@@ -178,8 +178,6 @@ work-imgs {
     color: #F4F4F4;
 }
 
-
-
 @media only screen and (min-width: 20em) {
     
     .billboard {
@@ -188,19 +186,46 @@ work-imgs {
      text-align: center;
  }
     
- .billboard-type {
+    .billboard-type {
      margin: 0 auto;
      width: 100%;
      text-align: center;
  }
     
-    .about {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        max-width: 28em;
-        line-height: 1.6em;
-    }
+    .nav {
+     margin: 0 auto;
+     width: 100%;
+     text-align: center;
+ } 
+    
+    .nav-footer {
+     margin: 0 auto;
+     width: 100%;
+     text-align: left;
+ }
+    
+    .portfolio-piece {
+     margin: 0 auto;
+     width: 100%;
+     text-align: center;
+}
+    .workh2 {
+     margin: 0 auto;
+     width: 100%;
+     text-align: center;
+}
+    
+    .me {
+     margin: 0 auto;
+     width: 100%;
+     text-align: center;
+ }
+    
+    .map {
+     margin: 0 auto;
+     width: 100%;
+     text-align: center;
+ } 
 }
 
 @media only screen and (min-width: 40em) {
