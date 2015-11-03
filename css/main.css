@@ -60,7 +60,6 @@ a:focus {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 30;
     background-color: #DBE690;
 }
 
@@ -124,28 +123,37 @@ li {
     text-align: center;
 }
 
+.line-length {
+    display: block;
+    margin: 0 auto;
+    max-width: 40em;
+}
+
 .map {
-    align-content: center;
-    padding-top: 20px;
-    width: 35em;
-    height: 40em;
-}
-
-.portfolio-piece:hover {
-    color: #DBE690;
-    opacity: .35;
-}
-
-work-imgs {
     align-content: center;
     padding-top: 20px;
     width: 100%;
     height: 30em;
 }
 
+.portfolio-piece:hover {
+    opacity: .35;
+}
+
+work-imgs {
+    height: 100%;
+}
+
 .icons {
-    text-align: center;
+    display: block;
+    margin: 0 auto;
     width: 5em;
+}
+
+.icon-width {
+    max-width: 25em;
+    display: block;
+    margin: 0 auto;
 }
 
 .nav-footer a {
@@ -239,5 +247,10 @@ work-imgs {
 }
 
 @media only screen and (min-width: 60em) {
+    
+    .photography-piece {
+    margin: 0 auto;
+    display: block;
+}
 
 }
