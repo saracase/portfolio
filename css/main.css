@@ -123,12 +123,6 @@ li {
     text-align: center;
 }
 
-.line-length {
-    display: block;
-    margin: 0 auto;
-    max-width: 40em;
-}
-
 .map {
     align-content: center;
     padding-top: 20px;
@@ -223,6 +217,10 @@ work-imgs {
      text-align: center;
 }
     
+    .paragraph {
+    text-align: center;
+}
+    
     .me {
      margin: 0 auto;
      width: 100%;
@@ -238,7 +236,7 @@ work-imgs {
 
 @media only screen and (min-width: 40em) {
   
- .logo {
+     .logo {
      margin: 0 auto;
      max-width: 22em;
      text-align: center;
