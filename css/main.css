@@ -130,6 +130,11 @@ li {
     height: 30em;
 }
 
+.portfolio-piece {
+    margin: 0 auto;
+    display: block;
+}
+
 .portfolio-piece:hover {
     opacity: .35;
 }
