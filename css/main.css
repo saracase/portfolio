@@ -213,21 +213,16 @@ work-imgs {
     
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
   
-     .logo {
-     margin: 0 auto;
-     max-width: 22em;
-     text-align: center;
- }
-          
-}
-
-@media only screen and (min-width: 60em) {
+    .nav {
+        text-align: center;
+        padding: 1.5em 0;
+    }
     
-    .photography-piece {
-    margin: 0 auto;
-    display: block;
-}
-
+    .nav-footer {
+        text-align: left;
+        padding: 0.5em 0 0 0;
+    }
+    
 }
