@@ -193,58 +193,24 @@ work-imgs {
     color: #F4F4F4;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 25em) {
+    
+      .nav li {
+        display: inline-block;
+    }
+    
+    .nav-footer li {
+        display: inline-block;
+    }
     
     .billboard {
-     margin: 0 auto;
-     width: 100%;
-     text-align: center;
- }
+        padding: 2em 0;
+    }
     
-    .billboard-type {
-     margin: 0 auto;
-     width: 100%;
-     text-align: center;
- }
+    .button {
+        padding: 0 0.5em;
+    }
     
-    .nav {
-     margin: 0 auto;
-     width: 100%;
-     text-align: center;
- } 
-    
-    .nav-footer {
-     margin: 0 auto;
-     width: 100%;
-     text-align: left;
- }
-    
-    .portfolio-piece {
-     margin: 0 auto;
-     width: 100%;
-     text-align: center;
-}
-    .workh2 {
-     margin: 0 auto;
-     width: 100%;
-     text-align: center;
-}
-    
-    .paragraph {
-    text-align: center;
-}
-    
-    .me {
-     margin: 0 auto;
-     width: 100%;
-     text-align: center;
- }
-    
-    .map {
-     margin: 0 auto;
-     width: 100%;
-     text-align: center;
- } 
 }
 
 @media only screen and (min-width: 40em) {
