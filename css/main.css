@@ -203,10 +203,6 @@ work-imgs {
         display: inline-block;
     }
     
-    .billboard {
-        padding: 2em 0;
-    }
-    
     .button {
         padding: 0 0.5em;
     }
@@ -217,7 +213,6 @@ work-imgs {
   
     .nav {
         text-align: center;
-        padding: 1.5em 0;
     }
     
     .nav-footer {
