@@ -136,7 +136,12 @@ li {
     display: block;
 }
 
-.portfolio-piece:hover {
+.buttons {
+    margin: 0 auto;
+    display: block;
+}
+
+.buttons:hover {
     opacity: .35;
 }
 
@@ -145,9 +150,11 @@ work-imgs {
 }
 
 .icons {
+    margin: 0;
+    padding: 0;
     display: block;
-    margin: 0 auto;
-    width: 5em;
+    width: 2.5em;
+    
 }
 
 .icon-width {
