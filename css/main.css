@@ -192,7 +192,7 @@ work-imgs {
 
 @media only screen and (min-width: 25em) {
     
-      .nav li {
+    .nav li {
         display: inline-block;
     }
     
@@ -200,12 +200,19 @@ work-imgs {
         display: inline-block;
     }
     
-    .buttons {
+    .billboard {
+        padding: 2em 0;
+    }
+    
+    .billboard-type {
+        font-size: 5em;
+    }
+    
+    .piece {
         padding: 0 0.5em;
     }
     
 }
-
 @media only screen and (min-width: 38em) {
   
     .nav {
