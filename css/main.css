@@ -125,7 +125,8 @@ li {
 
 .paragraph {
     text-align: center;
-    padding: 0;
+    margin-left: 24em;
+    margin-right: 24em; 
 }
 
 .map {
@@ -155,10 +156,11 @@ work-imgs {
 }
 
 .icons {
-    margin: 0;
-    padding: 0;
-    text-align: right;
+    display: inline-block;
+    text-align: left;
     width: 2.5em;
+    margin-left: 39em;
+    margin-right: 39em;
 }
 
 .icon-width {
