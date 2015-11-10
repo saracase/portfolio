@@ -152,20 +152,9 @@ li {
     opacity: .35;
 }
 
-work-imgs {
-    height: 100%;
-}
-
 .icons {
-    margin: 0;
-    padding: 0;
     display: inline-block;
-    text-align: left;
     width: 2.5em;
-}
-
-.icon-width {
-    max-width: 25em;
 }
 
 .nav-footer a {
