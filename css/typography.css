@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 "Lato", sans-serif;
+  font: normal 100%/1.5 "PT Mono", sans-serif;
   color: #333333;
 }
 
@@ -139,33 +139,33 @@ sub {
 }
 
 h1 {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Mono", sans-serif;
     color: #333333;
 }
 
 h2 {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Mono", sans-serif;
     color: #DBE690;
 }
 
 h3 {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Mono", sans-serif;
     color: #787677;
 }
 
 .brand-family {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Mono", sans-serif;
 }
 
 .form-spacing {
-     font-family: "Lato", sans-serif;
+     font-family: "PT Mono", sans-serif;
 }
 
 .masthead {
-     font-family: "Lato", sans-serif;
+     font-family: "PT Mono", sans-serif;
 }
 
 .micro {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Mono", sans-serif;
     color: #F4F4F4;
 }
