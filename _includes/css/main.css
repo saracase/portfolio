@@ -187,6 +187,14 @@ a:focus {
     color: #F4F4F4;
 }
 
+.error {
+    align-content: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 30em;
+}
+    
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
