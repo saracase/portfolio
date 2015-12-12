@@ -101,7 +101,7 @@ a:focus {
 .nav .nav-current:visited {
     color: #F4F4F4;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .workh2 {
